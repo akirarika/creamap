@@ -1,0 +1,32 @@
+{
+  "name": "creamap",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Use Map like Object and have util-methods like Array.",
+  "keywords": [
+    "typescript",
+    "object",
+    "map",
+    "array",
+    "util"
+  ],
+  "main": "./products/creamap.js",
+  "typings": "./products/main.d.ts",
+  "files": [
+    "/products",
+    "/README.md",
+    "/LICENSE"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^1.7.1"
+  }
+}
